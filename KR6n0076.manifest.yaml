@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6n0076/v1
+canonical_location: https://kanripo.org/bkk/KR6n0076/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 中邊分別論疏
+  identifiers:
+    alt_id:
+    - X48n0797
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X48/X48n0797.xml
+    old_id: X48n0797
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0076_000.yaml, hash: 'sha256:26119b1c5715fc9365e05724481c03a946ac87acda60a4de1e49bfad3bf07fd0'}
+  - {seq: 3, filename: KR6n0076_003.yaml, hash: 'sha256:a4861ba5893bad772842eaac28c757a5c1d46de761079a997777ac7cc2cb815d'}
+  markers:
+  - {seq: 3, role: markers, filename: assets/KR6n0076_003.markers.yaml, hash: 'sha256:455f145f520da5faac0b129e83de7468f34b8eff3e5d2210b112df98a0e22f4f'}
+table_of_contents:
+- ref:
+    seq: 3
+    marker_id: KR6n0076_X_003-juan-start
+    span:
+    - body
+    - 0
+    - 20323
+  label: 中邊疏卷三
+  type: juan
+  level: 1
+hash: sha256:2bed0bbd30562d7cae63b045573ce0dbfbf00d93be6f544e7f1ff697d41f21fa
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

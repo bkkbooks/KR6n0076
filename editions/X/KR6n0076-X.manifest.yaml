@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6n0076/X/v1
+canonical_location: https://kanripo.org/bkk/KR6n0076/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 中邊分別論疏
+  identifiers:
+    krp: KR6n0076
+    cbeta: X48n0797
+    cbeta_old_id: X48n0797
+    authorityid: CA0004101
+    json_key: X0797
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X48/X48n0797.xml
+    old_id: X48n0797
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0076_000-X.yaml, hash: 'sha256:26119b1c5715fc9365e05724481c03a946ac87acda60a4de1e49bfad3bf07fd0'}
+  - {seq: 3, filename: KR6n0076_003-X.yaml, hash: 'sha256:882565fe34037d5e2ef0233a4f78ee8daceb294f5c06f846dee9623e437f0943'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6n0076_000-X.markers.yaml, hash: 'sha256:3371a2c71f4119f5d1bfa86b0f0e1fe7367f91a0546034bd537e93c6ff7e5d67'}
+  - {seq: 3, role: markers, filename: assets/KR6n0076_003-X.markers.yaml, hash: 'sha256:b93e46f0d1a5f756350be860cf9e8e7ee83522f7d49e0d4d2761e230d1fa6231'}
+table_of_contents:
+- ref:
+    seq: 3
+    marker_id: KR6n0076_X_003-juan-start
+    span:
+    - body
+    - 0
+    - 20323
+  label: 中邊疏卷三
+  type: juan
+  level: 1
+hash: sha256:05a2d1b969be432d342a8da6a17bb6fcad6406f7450bb40e64b6e98c0a5cf7ad
