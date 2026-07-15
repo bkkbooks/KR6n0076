@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6n0076/v1
 canonical_location: https://kanripo.org/bkk/KR6n0076/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 中邊分別論疏
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6n0076_000.yaml, hash: 'sha256:26119b1c5715fc9365e05724481c03a946ac87acda60a4de1e49bfad3bf07fd0'}
-  - {seq: 3, filename: KR6n0076_003.yaml, hash: 'sha256:882565fe34037d5e2ef0233a4f78ee8daceb294f5c06f846dee9623e437f0943'}
+  - {seq: 3, filename: KR6n0076_003.yaml, hash: 'sha256:3d6990fbb2cff5901194741477bb32417f5e77f90bd32b4260872aa82098a0f5'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6n0076_000.markers.yaml, hash: 'sha256:1751334735ef0e6947d18d900bb6940f7e3921fe70255b24e09b6138bb32cbb1'}
-  - {seq: 3, role: markers, filename: assets/KR6n0076_003.markers.yaml, hash: 'sha256:c6cbbb3a08d605af920d2c2e9057b6ae6d099876e4c4fb8962861cf9b9886c90'}
+  - {seq: 3, role: markers, filename: assets/KR6n0076_003.markers.yaml, hash: 'sha256:285b8a61de4b63fb39dee203c49c36597dc53f25670b530964bef82fa2911ea3'}
 table_of_contents:
 - ref:
     seq: 3
@@ -37,4 +37,7 @@ table_of_contents:
   label: 中邊疏卷三
   type: juan
   level: 1
-hash: sha256:94529ea4c6fb8625bfa10772a14d32f8a46f719e88458a9ef37bd8ccedfd02dc
+hash: sha256:faf08a27621713df9299123ee8da737e67b758614c773727bf1e6befa2b2fd60
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
